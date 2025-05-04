@@ -22,22 +22,26 @@ This project demonstrates how deep learning can be used to detect phishing email
 
 ## Overview
 
-Phishing remains one of the most common cyberattacks. In this project, we leverage deep learning to classify emails as **phishing** or **legitimate** using:
-- Text preprocessing (cleaning, tokenisation)
-- Word embeddings
-- LSTM (Long Short-Term Memory) neural network
+Phishing attacks are one of the most common and dangerous types of cyberattacks, wherein attackers attempt to deceive individuals or organizations into disclosing sensitive information by mimicking legitimate sources. As phishing tactics evolve, identifying malicious emails becomes more complex.
 
-The goal is to accurately detect phishing emails through supervised learning.
+This project addresses this challenge by using deep learning techniques to classify emails as phishing or legitimate based on their textual content. The model utilises:
+
+-Text Preprocessing: Cleaning, tokenising, and padding the email text to ensure consistency for deep learning processing.
+-Word Embeddings: Converting words into dense vector representations that capture semantic relationships between them.
+-LSTM (Long Short-Term Memory) Network: A type of recurrent neural network (RNN) used to capture long-term dependencies in the email content and effectively classify emails based on patterns in the sequence of words.
+
+By training the model on a labeled dataset of phishing and legitimate emails, this project aims to build an effective tool for automatic phishing email detection.
 
 ---
 
 ## Dataset
 
-The dataset contains email messages labelled as **phishing** or **legitimate**.  
-Due to its large size (~60 MB), the dataset is **not included in the repository**.
+The dataset used in this project contains a collection of email messages that are labelled as either phishing or legitimate. It provides a rich set of features based on the content of the emails, which allows the model to learn the distinguishing characteristics of phishing attempts.
 
-> 📥 **[Download CSV dataset here](#)**  
-> Place the CSV file inside a folder named `data/` at the root of the project.
+# Dataset Details:
+
+Format: CSV file with four columns: email_text (the body of the email) and label (the classification, where 1 represents phishing and 0 represents legitimate).
+Content: The dataset includes various types of phishing emails, such as those that try to steal personal information, credentials, or money, as well as legitimate emails from recognised sources.
 
 ---
 
