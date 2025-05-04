@@ -38,7 +38,7 @@ By training the model on a labeled dataset of phishing and legitimate emails, th
 
 The dataset used in this project contains a collection of email messages that are labelled as either phishing or legitimate. It provides a rich set of features based on the content of the emails, which allows the model to learn the distinguishing characteristics of phishing attempts.
 
-# Dataset Details:
+### Dataset Details:
 
 Format: CSV file with four columns: email_text (the body of the email) and label (the classification, where 1 represents phishing and 0 represents legitimate).
 Content: The dataset includes various types of phishing emails, such as those that try to steal personal information, credentials, or money, as well as legitimate emails from recognised sources.
