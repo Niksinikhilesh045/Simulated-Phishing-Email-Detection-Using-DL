@@ -1,13 +1,13 @@
 # Simulated-Phishing-Email-Detection-Using-DL
 This project focuses on detecting phishing emails using deep learning techniques. It trains a deep learning model to analyse email content and classify it as either legitimate or phishing. The goal is to improve email security by identifying potential phishing attempts using deep learning methods.
 
-# 🛡️ Phishing Email Detection using Deep Learning
+# Phishing Email Detection using Deep Learning
 
-This project demonstrates how deep learning can be used to detect phishing emails based on their textual content. Using techniques such as natural language processing (NLP), embedding layers, and LSTM networks, it aims to identify malicious emails that mimic legitimate sources.
+This project demonstrates how deep learning can be used to detect phishing emails based on their textual content. Using techniques such as deep learning, embedding layers, and LSTM networks, it aims to identify malicious emails that mimic legitimate sources.
 
 ---
 
-## 📘 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Features](#features)
@@ -20,7 +20,7 @@ This project demonstrates how deep learning can be used to detect phishing email
 
 ---
 
-## 🧠 Overview
+## Overview
 
 Phishing remains one of the most common cyberattacks. In this project, we leverage deep learning to classify emails as **phishing** or **legitimate** using:
 - Text preprocessing (cleaning, tokenisation)
@@ -31,7 +31,7 @@ The goal is to accurately detect phishing emails through supervised learning.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The dataset contains email messages labelled as **phishing** or **legitimate**.  
 Due to its large size (~60 MB), the dataset is **not included in the repository**.
@@ -41,7 +41,7 @@ Due to its large size (~60 MB), the dataset is **not included in the repository*
 
 ---
 
-## ✨ Features
+## Features
 
 - Email text preprocessing: cleaning, tokenising, and padding
 - Label encoding for binary classification
@@ -52,7 +52,7 @@ Due to its large size (~60 MB), the dataset is **not included in the repository*
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 The model follows a sequential architecture:
 
@@ -62,11 +62,10 @@ The model follows a sequential architecture:
 
 ---
 
-## 💻 Installation
+## Installation
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Niksinikhilesh045/Simulated-phishing-Email-detection-Using-DL.git
 cd phishing-email-detection
-
