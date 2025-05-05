@@ -135,7 +135,7 @@ pip install -r requirements.txt
 ### 3. Run the Jupyter Notebook
 
 ```bash
-jupyter notebook phishing-email-detection-using-deep-learning.ipynb
+jupyter notebook Phishing-Email-Detection.ipynb
 ```
 
 ---
